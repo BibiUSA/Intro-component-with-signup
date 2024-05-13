@@ -1,0 +1,127 @@
+body{
+    background-image: url("./pexels-steve-1509534.jpg");
+    background-size:cover;
+    display:inline-flex;
+    background-color: black;
+    
+}
+
+
+#headline{
+    color:white;
+    text-shadow: 0px 0px 10px black;
+    width: 40%;
+    text-align: center;
+    margin: 20% 5%;
+    
+    
+}
+
+#headline h1{
+    font-size: 2.5rem;
+   
+}
+
+#headline p{
+    font-size: 1.2rem;
+    
+   
+}
+
+#sign-up{
+    margin: 10% 5%;
+   
+}
+
+.please{
+    color: red;
+    margin: 0 0 0 3%;
+    font-size: small;
+}
+
+#cost{
+    background-color: rgb(87, 40, 154);
+    color: white;
+    padding: 3%;
+    border-radius: 10px;
+    text-align: center;
+}
+
+#form{
+    background-color: white;
+    padding: 4%;
+    border-radius: 10px;
+   
+}
+
+.input{
+    padding:3.5%;
+    margin: 3%;
+    width: 80%;
+    
+}
+
+#button{
+    padding:3.5%;
+    margin: 3% 5% 0 3%;
+    width: 89%;
+    background-color: rgb(39, 167, 33);
+    color: white;
+    border: 1px solid rgb(102, 196, 97);;
+    border-radius: 3px;
+}
+
+#button:hover{
+    cursor: pointer;
+    box-shadow: 1px 1px 3px rgb(165, 208, 10);
+    color:black;
+}
+
+#terms{
+    
+    margin:2% 3% 3% 3%;
+    width:88%;
+    font-size: smaller;
+    
+}
+
+#terms-services{
+    color:blue;
+}
+#terms-services:hover{
+    cursor: pointer;
+}
+
+.hidden{
+    display: none;
+}
+
+@media screen and (max-width:600px){
+    body{
+        background-image: url("./pexels-steve-1509534.jpg");
+        background-size:cover;
+        display: inline-block;
+        
+    }
+    #headline{
+        color:white;
+        text-shadow: 0px 0px 10px black;
+        width: 100%;
+        text-align: center;
+        padding-right: 10%;
+    
+        
+        
+    }
+    #headline p{
+        overflow: hidden;
+        margin-right: 10%;
+        
+       
+    }
+    #sign-up{
+        align-items: center;
+        
+        margin: 10% 0% 0% 10%;
+    }
+}

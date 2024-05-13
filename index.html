@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+
+<section id="headline">
+  <h1>Develop small habits that make a BIG DIFFERENCE</h1>
+
+  <p>Here at Mustard Seed, we believe the key to success is often small incremental steps rather than few giant leaps.
+  Create substainable habits and see the change for yourself!</p>
+
+</section>
+<section id="sign-up">
+  <p id="cost"><strong>Try it free 30 days</strong> then $3/mo. thereafter</p>
+  <form id="form" onsubmit="return false">
+    <input type="text"  placeholder="First Name" class="first-name input" >
+    <p class="please first hidden">Please enter your first name</p>
+    <input type="text"  placeholder="Last Name" class="last-name input" >
+    <p class="please last hidden">Please enter your last name</p>
+    <input type="text"  placeholder="Email Address" class="email-address input" >
+    <p class="please valid-email hidden">Please enter a valid email</p>
+    <input type="password"  placeholder="Password" class="password input" >
+    <p class="please valid-password hidden">Please enter a password</p>
+    <button id ="button">CLAIM YOUR FREE TRIAL </button>
+  
+
+    <p id="terms">By clicking the button, you are agreeing to our <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ"> <scan id="terms-services">Terms and Services</scan></a> </p>
+  </form>
+</section>
+
+<script src="./index.js"></script>
+</body>
+</html>
